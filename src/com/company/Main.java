@@ -35,7 +35,7 @@ public class Main {
         return years + " " + months + " " + days;
     }
 
-    /* prompts user to enter two dates in the specificed format
+    /* method prompts user to enter two dates in the specificed format
        uses catch(ParseException) to validate user input using specified date format
        prompts user again if user input is not validated
        converts user string to date then to calendar
