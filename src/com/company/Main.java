@@ -76,7 +76,7 @@ public class Main {
         int yearsBetween = d2.get(Calendar.YEAR) - d1.get(Calendar.YEAR);
         int monthsBetween = d2.get(Calendar.MONTH) - d1.get(Calendar.MONTH);
         int daysBetween = d2.get(Calendar.DAY_OF_MONTH) - d1.get(Calendar.DAY_OF_MONTH);
-        int daysInMonth = d1.getActualMaximum(Calendar.DAY_OF_MONTH);
+        int daysInMonth = d2.getActualMaximum(Calendar.DAY_OF_MONTH);
 
 
         //returns the duration between these dates and seprates the returned string value
